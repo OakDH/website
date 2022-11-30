@@ -21,9 +21,22 @@
 
     </header>
     <body id="box">
-
-        <h1>This is a heading</h1>
-        <p>This is a paragraph.</p>
-
+        <div id="login">
+            <form action="action_page.php" method="post">
+                <div id="loginbox">
+                    <span>
+                        <label><b>Username</b></label>
+                        <input id="name" type="text" placeholder="Enter Username" name="uname" required>
+                    </span>
+                  <label ><b>Password</b></label>
+                  <input id="password" type="password" placeholder="Enter Password" name="psw" required>
+              
+                  <button type="submit" id="loginbutton">Login</button>
+                </div>
+              
+                <div id="loginbox">
+                </div>
+              </form> 
+        </div>
     </body>
 </html> 
