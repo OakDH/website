@@ -1,0 +1,48 @@
+header 
+{
+    background-color: #9d9fa8;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    float: left;
+
+}
+#top_bar
+{
+
+    width: 100%;
+    height: 100px;
+    
+}
+#title
+{
+    font-size: 30px;
+    text-align: center;
+    float: left;
+    margin-left: 36%;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-weight: bolder;
+}
+body
+{
+    background-color: #a3a5ae;
+
+}
+#logo
+{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+#box
+{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-family: 'Anek Devanagari', sans-serif;
+}
