@@ -22,8 +22,8 @@ header
     text-align: center;
     font-family: 'Anek Devanagari', sans-serif;
     font-weight: bolder;
-    margin-right: 100px;
     line-height: 100px;
+    background-color: antiquewhite;
 }
 
 body
@@ -49,4 +49,10 @@ body
     text-align: center;
     font-family: 'Anek Devanagari', sans-serif;
     margin: 0px;
+}
+#container
+{
+    width: 100px;
+    float: left;
+    position: absolute;
 }
