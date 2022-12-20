@@ -126,10 +126,10 @@ input[type="email"] {
 }
 .reset h4 {
     font-size: 16px;
-    color: rgba(255, 255, 255, 0.788);
+    color: rgb(255, 255, 255);
     font-family: 'Anek Devanagari', sans-serif;
     line-height: 20px;
-    font-weight: 1000;
+    font-weight: 500;
     padding: 0px 10px 0px 10px;
 }
 }
