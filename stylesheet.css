@@ -18,6 +18,8 @@ body {
     background: rgba(0, 0, 0, 0.384);
     border-radius: 10px;
     box-shadow: 0px 0px 30px rgb(108, 64, 165);
+    transition: .4s;
+    motion-rotation: reverse;
 }
 .center h1 {
     color: white;
@@ -182,7 +184,7 @@ nav{
     font-weight: bold;
     margin-right: 50px;
     text-decoration-line: underline;
-    text-underline-position: under;
+    text-underline-position: under;    
   }
   nav ul li a:hover{
     color: #2691d9;
@@ -193,10 +195,11 @@ nav{
     background-color: #5c26d9;
     padding: 12px 30px;
     border-radius: 30px;
-    color: rgba(255, 255, 255, 0.726);
+    color: rgba(255, 255, 255, 0.842);
     font-weight: 600;
     font-size: 15px;
     transition: .4s;
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.466);
   }
   .navbar-buttons{
     font-size: 20px;
