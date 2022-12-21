@@ -1,5 +1,8 @@
 /*pc css*/
 @media screen and (min-width: 1201px) {
+
+  /* lOGIN FORM */
+
 body {
     margin: 0;
     padding: 0;
@@ -153,6 +156,9 @@ input[type="email"] {
 .signup-link a:hover {
     text-decoration: underline;
     color: rgb(118, 119, 189);
+  
+    /* NAVBAR */
+
 }
 nav{
     display: flex;
@@ -212,6 +218,9 @@ nav{
     cursor: pointer;
     color: rgb(118, 119, 189);
     transition: .3s;
+
+    /* PROJECT-ABOUT-CONTACT */
+
   /*
     }
   .parallaxcenter {
