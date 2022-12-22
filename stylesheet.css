@@ -304,8 +304,6 @@ nav{
     transition: .3s;
 
     /* PROJECT-ABOUT-CONTACT */
-
-  /*
     }
   .parallaxcenter {
     font-size: 550%;
@@ -318,30 +316,58 @@ nav{
     color: rgb(0, 0, 0);
     transition: 1s;
     opacity: 50%;
-    background-image: url(backgrounnd.jpg) no-repeat;
+    background-image: url(/images/backgrounnd.jpg) no-repeat;
 }
   .projectbody{
     transition: 1s;
     margin: 0;
     padding: 0;
-    background: url(backgrounnd.jpg) no-repeat;
+    background: url(/images/backgrounnd.jpg) no-repeat;
     background-size: cover;
     background-color: rgb(0, 0, 0); 
   }
     .border2{
 
         height: 1000px;
-        background: rgb(0, 0, 0);
+        background: #151515b0;
         padding: 30px;
         text-align: center;
         margin-right: 0%;
         margin-left: 0%;
-        margin-top: 5%;
+        margin-top: 20%;
         color: white;
         font-family: 'Century Gothic',sans-serif;
+        margin-bottom: 0;
       }
-      */
+      .border2 h1 {
+        font-size: 40px;
+        font-weight: 50;
+        letter-spacing: 1px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: underline;
+        text-underline-position: below;
+      }
+
+    .border2 h4 {
+      font-size: 18px;
+      font-weight: 150;
+      letter-spacing: 1px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(191, 191, 191);
+      padding-left: 200px;
+      padding-right: 200px;
     }
+    .border2 h2 {
+      font-size: 25px;
+      font-weight: 150;
+      letter-spacing: 1px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(191, 191, 191);
+      padding-left: 200px;
+      padding-right: 200px;
+    }
+      
+    
 
 
 
