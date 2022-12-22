@@ -240,10 +240,27 @@ input[type="email"] {
 .signup-link a:hover {
     text-decoration: underline;
     color: rgb(118, 119, 189);
-  
+}
+.back a {
+  transition: 1s;
+  overflow: hidden;
+  font-family: 'Century Gothic',sans-serif;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  letter-spacing: .5px;
+  font-size: 12px; 
+  padding-bottom: 10px;
+  color: rgba(255, 255, 255, 0.555);
+}
+.back a:hover {
+  color: rgb(118, 119, 189);
+  transition: .5s;
+}
     /* NAVBAR */
 
-}
+
 nav{
     display: flex;
     align-items: center;
