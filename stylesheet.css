@@ -397,7 +397,8 @@ nav{
       margin-top: 20px;
     }
     .txt-field label {
-      color: rgb(189, 189, 189);
+      color: rgb(255, 255, 255);
+      font-weight: bolder;
     }
     .form :where(.txt-field input) {
       position: relative;
