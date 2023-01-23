@@ -1,13 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100&display=swap" rel="stylesheet"> 
-    <link rel="icon" type="icon_simple" href="images/icon_simple.png">        
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100&display=swap" rel="stylesheet">
+    <link rel="icon" type="icon_simple" href="images/icon_simple.png">
     <script src="login.js"></script>
-    <script src="https://code.jquery.com/jquery-1.10.2.js" ></script>
-    <title>About Us</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <title>Datasheet</title>
 </head>
 
 <script>
@@ -15,6 +24,7 @@
         $("#navbar-placeholder").load("navbar2.html");
     });
 </script>
+
 <body>
     <div id="navbar-placeholder">
 
@@ -22,17 +32,147 @@
 
     <div class="parallax">
         <div class="parallaxcenter">
-          <a href="/about.html"></a>
+            <a href="/about.html"></a>
         </div>
 
-        <div class="border2">
-            <h1 class="projectheader">Dataview</h1>
-                <br>
-                    <p1>Sorry, this page is still under construction :/</p1>
-            <style>
-                .border2 h2 {
-                    font-size: 20px;
-                    color: white;
-                }
-            </style>
-</body>
+
+
+        <div class="idfk">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID (#)</th>
+                    <th>Temperature (°C)</th>
+                    <th>Humidity (%)</th>
+                    <th>Soil Moisture (%)</th>
+                    <th>Risk Factor (0.0 - 1.0)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>0</td>
+                    <td>22.0</td>
+                    <td>30.4</td>
+                    <td>-0.058</td>
+                    <td>0.974</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>21.7</td>
+                    <td>30.8</td>
+                    <td>-0.043</td>
+                    <td>0.952</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>22.1</td>
+                    <td>30.4</td>
+                    <td>-0.055</td>
+                    <td>0.972</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>22.0</td>
+                    <td>30.4</td>
+                    <td>-0.058</td>
+                    <td>0.974</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>22.1</td>
+                    <td>30.4</td>
+                    <td>-0.052</td>
+                    <td>0.969</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>21.7</td>
+                    <td>30.8</td>
+                    <td>-0.043</td>
+                    <td>0.952</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>22.0</td>
+                    <td>30.4</td>
+                    <td>-0.055</td>
+                    <td>0.972</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>21.7</td>
+                    <td>30.8</td>
+                    <td>-0.043</td>
+                    <td>0.953</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>22.1</td>
+                    <td>30.4</td>
+                    <td>-0.052</td>
+                    <td>0.969</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>21.7</td>
+                    <td>30.8</td>
+                    <td>-0.040</td>
+                    <td>0.949</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>22.0</td>
+                    <td>30.4</td>
+                    <td>-0.058</td>
+                    <td>0.974</td>
+                </tr>
+
+            </tbody>
+        </table>
+</body class="body2">
+</div>
+
+<style>
+
+    .body2 {
+        font-family: Arial, Helvetica, sans-serif;
+        height: 100vh;
+        display: grid;
+        color: #1230c9;
+        font-size: 0.9rem;
+        justify-content: center;
+    }
+
+    table {
+        border-collapse: collapse;
+        box-shadow: 0 8px 12px #b183c7;
+        background-color: rgba(255, 255, 255, 0.815);
+        text-align: left;
+        overflow: hidden;
+        align-items: center;
+    }
+
+    thead {
+        box-shadow: 0 5px 10px #5610cf5b;
+        font-weight: bold;
+    }
+
+    th {
+        padding: 1rem 2rem;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        font-size: 0.9rem;
+        font-weight: bolder;
+        color: black;
+    }
+
+    td {
+        padding: 1rem 4rem;
+        color: rgba(0, 0, 0, 0.644);
+        font-weight: 600;
+    }
+    .idfk {
+        width: 100%;
+        margin-left: 27%;
+    }
+</style>
